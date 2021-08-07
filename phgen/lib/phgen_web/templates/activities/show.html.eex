@@ -1,0 +1,23 @@
+<h1>Show Activities</h1>
+
+<ul>
+
+  <li>
+    <strong>Activity:</strong>
+    <%= @activities.activity_id %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @activities.name %>
+  </li>
+
+  <li>
+    <strong>Owner:</strong>
+    <%= @activities.owner %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.activities_path(@conn, :edit, @activities) %></span>
+<span><%= link "Back", to: Routes.activities_path(@conn, :index) %></span>
