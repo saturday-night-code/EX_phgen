@@ -57,8 +57,6 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 <details>
   <summary>Install and Connect: PostgreSQL and PgAdmin4</summary>
 
-  For Debian/Ubuntu based system:
-
   1. Get pdAdmin4 docker image: `sudo docker pull dpage/pgadmin4`
   2. Create docker postgres network: `sudo docker network create --driver bridge postgres-network`
   3. Create and start a postgres docker container running with postgres-network: `sudo docker run --name postgres --network=postgres-network -e "POSTGRES_PASSWORD=postgres" -p 5432:5432 -d postgres`
@@ -81,8 +79,6 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 
 <details>
   <summary>Only Install: PostgreSQL container</summary>
-
-  For Debian/Ubuntu based system:
 
   1. PostgreSQL docker image: `sudo docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 
