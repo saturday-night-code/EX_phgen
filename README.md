@@ -99,8 +99,6 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 
   1. In Terminal run: `mix phx.gen.html ContextName EntityName tableName attr1:attType attr2:attType`
   2. Run the migration: `mix ecto.migrate`
-
-  **The authentication data for this database is**:
 </details>
 
 Use `mix phx.routes` to see all routes in your project.
