@@ -101,11 +101,6 @@ First, you need to have installed Erlang, Elixir and Phoenix.
   2. Run the migration: `mix ecto.migrate`
 
   **The authentication data for this database is**:
-
-  ```json
-    user: postgres,
-    password: postgres
-  ```
 </details>
 
 Use `mix phx.routes` to see all routes in your project.
