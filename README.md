@@ -6,8 +6,8 @@ A CRUD(Create, Read, Update, Delete) using Phoenix Generator in Elixir.
 
 ## What was used?
 
-[Phoenix](https://phoenixframework.org/)
-[Phoenix Generator - HTML](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Html.html)
+- [Phoenix](https://phoenixframework.org/)
+- [Phoenix Generator - HTML](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Html.html)
 
 ## :runner: To run this project?
 
