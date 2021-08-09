@@ -55,7 +55,7 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 </details>
 
 <details>
-  <summary>Install and Connect: PostgreSQL and PgAdmin4</summary>
+  <summary>Create and Connect: PostgreSQL and PgAdmin4</summary>
 
   1. Get pdAdmin4 docker image: `sudo docker pull dpage/pgadmin4`
   2. Create docker postgres network: `sudo docker network create --driver bridge postgres-network`
@@ -78,7 +78,7 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 </details>
 
 <details>
-  <summary>Only Install: PostgreSQL container</summary>
+  <summary>Create: Only PostgreSQL container</summary>
 
   1. PostgreSQL docker image: `sudo docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 
@@ -91,7 +91,7 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 </details>
 
 <details>
-  <summary>Create: CRUD in Phoenix Generator</summary>
+  <summary>Create: CRUD using Phoenix Generator</summary>
 
   1. In Terminal run: `mix phx.gen.html ContextName EntityName tableName attr1:attType attr2:attType`
   2. Run the migration: `mix ecto.migrate`
