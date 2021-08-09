@@ -73,7 +73,7 @@ First, you need to have installed Erlang, Elixir and Phoenix.
     connection/host-name = container name
     connection/port = 5432
     connection/username = postgres (default)
-    connection/password = pgAdmin container password
+    connection/password = postgres container password
   ```
 </details>
 
@@ -91,9 +91,17 @@ First, you need to have installed Erlang, Elixir and Phoenix.
 </details>
 
 <details>
+  <summary>Create: New project using Phoenix</summary>
+
+  1. Create new Phoenix project: `mix phx.new projectName` and `cd projectName`
+  2. Configure your database in config/dev.exs and run: `mix ecto.create`
+</details>
+
+
+<details>
   <summary>Create: CRUD using Phoenix Generator</summary>
 
-  1. In Terminal run: `mix phx.gen.html ContextName EntityName tableName attr1:attType attr2:attType`
+  1. In project root folder, run: `mix phx.gen.html ContextName EntityName tableName attr1:attType attr2:attType`
   2. Run the migration: `mix ecto.migrate`
 </details>
 
