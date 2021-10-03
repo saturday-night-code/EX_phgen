@@ -105,6 +105,8 @@ First, you need to have installed Erlang, Elixir and Phoenix.
   2. Run the migration: `mix ecto.migrate`
 </details>
 
+Use `mix phx.server` to run this project.
+
 Use `mix phx.routes` to see all routes in your project.
 
 ## Contributing
