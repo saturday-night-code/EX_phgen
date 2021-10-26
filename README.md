@@ -1,6 +1,6 @@
 <p align="center"><img src="https://avatars.githubusercontent.com/u/87999310" alt="saturday night code logo" width="122px" style="border-radius: 10px"/></p>
 
-<h1 align="center">EX_phgen</h1>
+<h1 align="center">phoenix-generator</h1>
 
 A CRUD(Create, Read, Update, Delete) using Phoenix Generator in Elixir.
 
