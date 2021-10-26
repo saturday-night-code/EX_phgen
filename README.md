@@ -111,9 +111,9 @@ Use `mix phx.routes` to see all routes in your project.
 
 ## Contributing
 
-1. Fork it (<https://github.com/saturday-night-code/EX_phgen/fork>)
-2. Create your feature branch (`git checkout -b EX_phgen-Type-feature`)
+1. Fork it (<https://github.com/saturday-night-code/phoenix-generator/fork>)
+2. Create your feature branch (`git checkout -b feature`)
 3. Commit your changes (`git commit -am 'Type: some feature'`)
    1. Available Types (replace in Type): Add|Fix|Review
-4. Push to the branch (`git push origin EX_phgen-Type-feature`)
+4. Push to the branch (`git push origin feature`)
 5. Create a new Pull Request
